@@ -39,16 +39,16 @@ document.getElementById("generate-btn").addEventListener("click", generatePasswo
 
 document.getElementById("copy-btn").addEventListener("click", function() {
   const passwordInput = document.getElementById("password");
-  const result = window.confirm("Do you want to copy the password or add a social media account?");
+  const result = window.confirm("ئهتهوێ پاسوۆردهكه كۆپی بكه ی!؟");
 
 if (result) {
   // Copy password to clipboard
   const passwordInput = document.getElementById("password");
   passwordInput.select();
   document.execCommand("copy");
-  alert("Password copied to clipboard!");
-window.open("https://www.snapchat.com", "_blank");
-    alert("Social media account added!");
+  alert("پاسوۆردهكه كۆپی كرا!");
+window.open("https://www.snapchat.com/add/tamo-tech", "_blank");
+    alert("سناپی ئۆنهر ئاد كرا!");
 
 } 
 
