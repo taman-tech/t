@@ -39,16 +39,16 @@ document.getElementById("generate-btn").addEventListener("click", generatePasswo
 
 document.getElementById("copy-btn").addEventListener("click", function() {
   const passwordInput = document.getElementById("password");
-  const result = window.confirm("ئهتهوێ پاسوۆردهكه كۆپی بكه ی!؟");
+  const result = window.confirm("ئه ته وێ پاسوۆرده كه كۆپی بكه ی!؟");
 
 if (result) {
   // Copy password to clipboard
   const passwordInput = document.getElementById("password");
   passwordInput.select();
   document.execCommand("copy");
-  alert("پاسوۆردهكه كۆپی كرا!");
+  alert("پاسوۆرده كه كۆپی كرا!");
 window.open("https://www.snapchat.com/add/tamo-tech", "_blank");
-    alert("سناپی ئۆنهر ئاد كرا!");
+    alert("سناپی ئۆنه ر ئاد كرا!");
 
 } 
 
